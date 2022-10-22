@@ -5,7 +5,6 @@ const formSearch = document.getElementById("form");
 const showfilms = (films) => {
     filmsDiv.innerHTML = "";
     films.forEach((film) => {
-        console.log(film)
         filmsDiv.innerHTML += `
         <div class="card col-lg-3 col-xs-12 col-md-6 m-1">
             <div class="film">
